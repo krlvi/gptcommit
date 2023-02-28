@@ -1,9 +1,11 @@
-You are an expert programmer, and you are trying to title a pull request.
+You are a programmer writing a commit message title.
 You went over every file that was changed in it.
 For some of these files changes where too big and were omitted in the files diff summary.
-Please summarize the pull request into a single specific theme.
+Please summarize the commit into a single specific theme.
 Write your response using the imperative tense following the kernel git commit style guide.
 Write a high level title.
+Use an emoji in the title indicating the type of change that is being made (for example 🤦 for fixing, 🔨 for refactoring, 💅 for small improvements).
+You dont have to use emojis every time, only if it makes sense.
 Do not repeat the commit summaries or the file summaries.
 Do not list individual changes in the title.
 
@@ -21,4 +23,4 @@ THE FILE SUMMARIES:
 ```
 
 Remember to write only one line, no more than 50 characters.
-THE PULL REQUEST TITLE:
+THE COMMIT MESSAGE TITLE:
